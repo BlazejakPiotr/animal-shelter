@@ -14,3 +14,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+.container-blue {
+  background-color: #e4edf0;
+}
+
+.top-navbar {
+  margin-top: 1.5rem;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.top-navbar > .logo-container {
+  max-height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.top-navbar img {
+  max-height: 90px;
+}
+
+.top-navbar h4 {
+  margin-block-end: 0px;
+  color: #c69457;
+}
+
+.top-navbar .navbar-nav {
+  padding-right: 1rem;
+}
+
+.top-navbar a {
+  color: #000 !important;
+  font-weight: 500;
+  margin: 0px 0.5rem;
+}
+
+.zaginione-btn {
+  background-color: #c69457;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.zaginione-btn > a {
+  color: #fff !important;
+}
+
+.zaginione-btn:hover {
+  /* border: 1px solid #000; */
+  -webkit-box-shadow: inset 8px 8px 24px -10px rgba(121, 104, 82, 1);
+  -moz-box-shadow: inset 8px 8px 24px -10px rgba(121, 104, 82, 1);
+  box-shadow: inset 8px 8px 24px -10px rgba(121, 104, 82, 1);
+}
+
+.home > .photo-container {
+  max-height: 70vh;
+}
+
+.photo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 24px;
+}
