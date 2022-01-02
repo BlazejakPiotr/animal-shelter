@@ -6,7 +6,7 @@ export const TopNavbar = () => {
     <Navbar expand="lg">
       <Container className="top-navbar">
         <div className="logo-container">
-          <img src={logo} alt="logo" /> <h4>Animal Shelter</h4>
+          <img src={logo} alt="logo" /> <h4>Miejskie Schronisko</h4>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
