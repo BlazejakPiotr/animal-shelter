@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 body {
   margin: 0;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -8,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
+  background-color: #f9f3ec !important;
 }
 
 code {
@@ -18,10 +18,6 @@ code {
 button {
   border: none;
   background-color: inherit;
-}
-
-.container-blue {
-  background-color: #e4edf0;
 }
 
 .top-navbar {
@@ -73,12 +69,33 @@ button {
   box-shadow: inset 8px 8px 24px -10px rgba(121, 104, 82, 1);
 }
 
-.home > .photo-container {
-  max-height: 70vh;
+/* MAIN CONTAINER */
+
+.container-blue {
+  background-color: #e4edf0;
+}
+
+.home h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.home button {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 1.25rem 1.75rem;
+  font-weight: 500;
+  margin-right: 2rem;
+}
+
+.photo-container {
+  min-height: 80vh;
+  position: relative;
 }
 
 .photo-container img {
   max-width: 100%;
-  max-height: 100%;
-  border-radius: 24px;
+  object-fit: cover;
+  border: 12px solid #e4edf0;
+  border-radius: 32px;
 }
