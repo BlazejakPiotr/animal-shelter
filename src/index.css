@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-  background-color: #f9f3ec !important;
+  background-color: #fff !important;
 }
 
 code {
@@ -71,13 +71,13 @@ button {
 
 /* MAIN CONTAINER */
 
-.container-blue {
+.home {
   background-color: #e4edf0;
 }
 
 .home h1 {
   font-weight: 700;
-  font-size: 3rem;
+  /* font-size: 3rem; */
 }
 
 .home button {
@@ -97,5 +97,64 @@ button {
   max-width: 100%;
   object-fit: cover;
   border: 12px solid #e4edf0;
+  border-radius: 32px;
+}
+
+.about {
+  background: linear-gradient(180deg, #e4edf0 40%, #f9f3ec 40%);
+}
+
+.section-container {
+  background-color: #fff !important;
+  border-radius: 24px;
+}
+
+.section-container h1 {
+  font-weight: 700;
+}
+
+.about button,
+.help button,
+.contact button {
+  background-color: #c69457;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.05rem 2rem;
+  border-radius: 20px;
+}
+
+.pupil-card {
+  border-radius: 24px !important;
+  border: none !important;
+  margin: 0px 1rem;
+  width: 100%;
+  color: #444444;
+}
+
+.pupil-card ul {
+  list-style-type: none;
+  padding-inline-start: 12px;
+}
+
+.pupil-card:first-child {
+  margin: 0px 1rem 0px 0px;
+}
+
+.pupil-card:last-child {
+  margin: 0px 0px 0px 1rem;
+}
+
+.card img {
+  max-height: 180px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  object-fit: cover;
+}
+
+.help {
+  background: linear-gradient(180deg, #f9f3ec 30%, #e4edf0 30%);
+}
+
+.help .form-control {
   border-radius: 32px;
 }

@@ -3,7 +3,7 @@ import logo from "../../logo.png";
 
 export const TopNavbar = () => {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className="home">
       <Container className="top-navbar">
         <div className="logo-container">
           <img src={logo} alt="logo" /> <h4>Miejskie Schronisko</h4>
