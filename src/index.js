@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Pets from "./Pets";
 import Pet from "./components/Pet";
-import { AddNewPet, Dashboard } from "./components/dashboard";
+import { PetDetails, Dashboard } from "./components/dashboard";
 import Home from "./components/Home";
 
 ReactDOM.render(
@@ -24,7 +24,7 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/dashboard/add" element={<AddNewPet />} />
+        <Route path="/dashboard/add" element={<PetDetails />} />
       </Routes>
     </Router>
   </React.StrictMode>,

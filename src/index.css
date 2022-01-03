@@ -184,3 +184,12 @@ ul {
   width: 150px;
   object-fit: contain;
 }
+
+.pet-details-container {
+  background-color: #FFF;
+  padding: 2.5rem;
+}
+
+.pet-details-container.row {
+  --bs-gutter-x: 0rem;
+}
