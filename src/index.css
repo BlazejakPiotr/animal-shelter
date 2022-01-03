@@ -20,6 +20,19 @@ button {
   background-color: inherit;
 }
 
+.App {
+  background: linear-gradient(
+    180deg,
+    #e4edf0 30%,
+    #f9f3ec 30%,
+    #f9f3ec 60%,
+    #e4edf0 60%,
+    #e4edf0 82%,
+    #fff 82%,
+    #fff 100%
+  );
+}
+
 .top-navbar {
   margin-top: 1.5rem;
   height: 100px;
@@ -113,9 +126,7 @@ button {
   font-weight: 700;
 }
 
-.about button,
-.help button,
-.contact button {
+.content button {
   background-color: #c69457;
   color: #fff;
   font-weight: 500;
@@ -155,6 +166,7 @@ button {
   background: linear-gradient(180deg, #f9f3ec 30%, #e4edf0 30%);
 }
 
-.help .form-control {
-  border-radius: 32px;
+.contact-form {
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1.25rem !important;
 }

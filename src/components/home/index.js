@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <Container>
       <Row className="home pt-4">
-        <Col lg={12} xl={5} className="d-flex flex-column pt-5 mt-5">
+        <Col lg={12} xl={6} className="d-flex flex-column pt-5 mt-5">
           <h1 className="mb-4">
             Miejskie Schronisko
             <br /> dla bezdomnych zwierząt <br />w Katowicach
@@ -19,11 +19,15 @@ export const Home = () => {
             remaining essentially unchanged.
           </p>
           <div className="d-flex">
-            <button>Sprawdź listę zwierzaków</button>
-            <button>Poznaj zasady adopcji</button>
+            <button style={{ background: "#fff", color: "#000" }}>
+              Sprawdź listę zwierzaków
+            </button>
+            <button style={{ background: "#fff", color: "#000" }}>
+              Poznaj zasady adopcji
+            </button>
           </div>
         </Col>
-        <Col lg={12} xl={7} className="pb-4">
+        <Col lg={12} xl={6} className="pb-4">
           <div className="photo-container ">
             <div style={{ paddingRight: "2.5rem" }}>
               <img
@@ -198,23 +202,28 @@ export const Help = () => {
         >
           <h1 className="mb-4">Zbiórka jedzenia</h1>
           <p>
-            Miejskie Schronisko dla Bezdomnych Zwierząt działa już od końca lat
-            80. Jest całkowicie finansowane przez Urząd Miasta w Katowicach.
-            Schronisko jest umiejscowione na obrzeżach Dąbrówki Małej w
-            Katowicach. Otoczone zielenią wtapia się w krajobraz, a zwierzęta
-            zaznają tu ciszy i spokoju.
+            Consectetur ex do aute anim incididunt elit elit Lorem occaecat
+            adipisicing aliquip veniam veniam culpa. Est aute voluptate veniam
+            eiusmod nulla enim culpa consequat cupidatat incididunt. Ut in ex
+            consectetur ad reprehenderit consectetur sint. Aliquip quis anim
+            cupidatat commodo non minim. Magna mollit veniam eiusmod magna
+            labore ea pariatur non deserunt eu laborum cillum.
           </p>
           <p>
-            W naszym schronisku przebywają zarówno psy jak i koty. Każde
-            trafiające do schroniska zwierzę musi zostać poddane 14- dniowej
-            kwarantannie. Jest to czas, w którym czekamy na odbiór zwierzaka
-            przez właściciela, a także obserwujemy zwierzęta pod kątem chorób,
-            ponieważ ich przeszłość jest nam nieznana. Gdy właściciel nie zgłosi
-            się w ciągu 14 dni do schroniska prawowitym właścicielem zwierzaka
-            staje się schronisko. Wtedy zwierzaki są przygotowywane do adopcji.
-            Wykonywane są szczepienia, zabiegi kastracji/ sterylizacji, oceniamy
-            dokładnie również charakter i cechy zwierzaka, które mogą wpływać na
-            proces adopcji.
+            Voluptate incididunt reprehenderit veniam qui pariatur consequat
+            veniam quis reprehenderit. Deserunt magna in tempor velit amet
+            excepteur esse nulla do et elit reprehenderit culpa minim. Dolore
+            consequat labore nulla duis nulla fugiat incididunt id nulla.
+          </p>
+          <p>
+            Sint cillum incididunt proident ex fugiat laborum adipisicing
+            pariatur laboris dolor qui. Consequat nulla labore proident non
+            mollit proident deserunt minim commodo ad. Dolore voluptate
+            cupidatat proident et. Irure enim qui commodo laboris ad laboris
+            ullamco proident laboris nisi cupidatat. Fugiat ad excepteur
+            cupidatat dolor et. Veniam laboris ullamco sunt ex irure excepteur
+            Lorem deserunt culpa. Proident id velit consequat tempor ut Lorem
+            aliquip aute qui minim do occaecat ad.
           </p>
           <div>
             <button>Dowiedz się więcej</button>
@@ -228,23 +237,25 @@ export const Help = () => {
         >
           <h1 className="mb-4">Wolontariat</h1>
           <p>
-            Miejskie Schronisko dla Bezdomnych Zwierząt działa już od końca lat
-            80. Jest całkowicie finansowane przez Urząd Miasta w Katowicach.
-            Schronisko jest umiejscowione na obrzeżach Dąbrówki Małej w
-            Katowicach. Otoczone zielenią wtapia się w krajobraz, a zwierzęta
-            zaznają tu ciszy i spokoju.
+            Magna ea ipsum do ipsum in excepteur eiusmod ullamco enim cupidatat
+            pariatur laboris et. Pariatur incididunt deserunt dolor velit elit
+            duis deserunt ea aliquip aliquip. Commodo incididunt nostrud eiusmod
+            aliqua. Exercitation amet voluptate voluptate velit qui pariatur
+            voluptate. Pariatur quis labore elit fugiat et cillum dolore do
+            irure fugiat id. Sit consequat est laborum tempor nisi occaecat
+            Lorem nulla commodo veniam et dolore. Sint dolor magna adipisicing
+            nisi consectetur proident sunt laboris consectetur eu irure duis
+            nostrud. Est tempor occaecat sint ullamco occaecat voluptate est
+            aliquip aute Lorem aute. Eu deserunt incididunt cupidatat excepteur
+            eiusmod est ut. Dolore occaecat occaecat incididunt fugiat dolor et
+            minim reprehenderit.
           </p>
           <p>
-            W naszym schronisku przebywają zarówno psy jak i koty. Każde
-            trafiające do schroniska zwierzę musi zostać poddane 14- dniowej
-            kwarantannie. Jest to czas, w którym czekamy na odbiór zwierzaka
-            przez właściciela, a także obserwujemy zwierzęta pod kątem chorób,
-            ponieważ ich przeszłość jest nam nieznana. Gdy właściciel nie zgłosi
-            się w ciągu 14 dni do schroniska prawowitym właścicielem zwierzaka
-            staje się schronisko. Wtedy zwierzaki są przygotowywane do adopcji.
-            Wykonywane są szczepienia, zabiegi kastracji/ sterylizacji, oceniamy
-            dokładnie również charakter i cechy zwierzaka, które mogą wpływać na
-            proces adopcji.
+            Aute adipisicing dolor officia dolor tempor eu nisi. Fugiat
+            exercitation officia mollit laborum commodo non aute dolore duis
+            laborum excepteur. Incididunt exercitation in duis cillum laborum
+            ipsum. Velit nulla mollit esse duis culpa sint. Dolor aute ad ipsum
+            aute ipsum aute est enim incididunt proident sint mollit consequat.
           </p>
           <div>
             <button>Dowiedz się więcej</button>
@@ -277,7 +288,11 @@ export const ContactUs = () => {
           <ContactForm />
         </Col>
         <Col className="px-0">
-          <img src="https://i.imgur.com/nYdvzDG.jpeg" alt="map" />
+          <img
+            src="https://i.imgur.com/nYdvzDG.jpeg"
+            alt="map"
+            style={{ height: "750px" }}
+          />
         </Col>
       </Row>
     </Container>
