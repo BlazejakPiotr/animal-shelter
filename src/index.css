@@ -126,7 +126,8 @@ button {
   font-weight: 700;
 }
 
-.content button {
+.content button,
+.home button {
   background-color: #c69457;
   color: #fff;
   font-weight: 500;
@@ -134,24 +135,23 @@ button {
   border-radius: 20px;
 }
 
-.pupil-card {
+.pet-card {
   border-radius: 24px !important;
   border: none !important;
   margin: 0px 1rem;
   width: 100%;
   color: #444444;
 }
-
-.pupil-card ul {
+ul {
   list-style-type: none;
   padding-inline-start: 12px;
 }
 
-.pupil-card:first-child {
+.pet-card:first-child {
   margin: 0px 1rem 0px 0px;
 }
 
-.pupil-card:last-child {
+.pet-card:last-child {
   margin: 0px 0px 0px 1rem;
 }
 
@@ -169,4 +169,18 @@ button {
 .contact-form {
   border-radius: 0.5rem !important;
   padding: 0.5rem 1.25rem !important;
+}
+
+.pet-list {
+  height: auto;
+  background-color: #faf3ed;
+}
+
+.pet {
+  background: linear-gradient(0deg, #f9f3ec 50%, #e4edf0 50%);
+}
+
+.pet-thumbnails img {
+  width: 150px;
+  object-fit: contain;
 }

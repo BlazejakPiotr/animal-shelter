@@ -1,23 +1,15 @@
-import { Container } from "react-bootstrap";
-import { About, ContactUs, Help, Home } from "./components/home";
+import Home from "./components/Home";
 import { TopNavbar } from "./components/menu";
 import { Footer } from "./footer";
+import Pets from "./Pets";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App content">
       <TopNavbar />
-      <div className="content">
-        <Home />
+      <Home />
 
-        <About />
-
-        <Help />
-
-        <ContactUs />
-
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

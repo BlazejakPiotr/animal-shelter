@@ -1,7 +1,8 @@
-import { Container, Row, Col, Carousel, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
+import PetCard from "../pets/petcard.js";
 import { ContactForm } from "./contactform.js";
 
-export const Home = () => {
+export const Welcome = () => {
   return (
     <Container>
       <Row className="home pt-4">
@@ -121,21 +122,13 @@ export const Pupils = () => {
         <Carousel.Item>
           <Row>
             <Col className="d-flex justify-content-between">
-              <PupilCard />
-              <PupilCard />
-              <PupilCard />
-              <PupilCard />
+              <PetCard />
             </Col>
           </Row>
         </Carousel.Item>
         <Carousel.Item>
           <Row>
-            <Col className="d-flex justify-content-between">
-              <PupilCard />
-              <PupilCard />
-              <PupilCard />
-              <PupilCard />
-            </Col>
+            <Col className="d-flex justify-content-between"></Col>
           </Row>
         </Carousel.Item>
       </Carousel>
@@ -143,39 +136,6 @@ export const Pupils = () => {
         <button>Sprawdź pełną listę</button>
       </div>
     </>
-  );
-};
-
-export const PupilCard = () => {
-  return (
-    <Card className="pupil-card">
-      <Card.Img
-        variant="top"
-        src="https://images.pexels.com/photos/2007/animal-dog-pet-cute.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      />
-      <Card.Body className="pb-0">
-        <Card.Title className="mt-2" style={{ fontWeight: "700" }}>
-          Lucky
-        </Card.Title>
-        <Card.Text>
-          <div className="d-flex justify-content-between">
-            <ul>
-              <li>Pies</li>
-              <li>2 lata</li>
-            </ul>
-            <button
-              style={{
-                paddingTop: "0px",
-                paddingBottom: "0px",
-                height: "45px",
-              }}
-            >
-              Więcej
-            </button>
-          </div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
   );
 };
 
